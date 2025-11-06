@@ -1,0 +1,85 @@
+# ==========================
+# GITIGNORE - PROJETO JAVA + QUARKUS
+# ==========================
+
+# === Build & Dependências ===
+/target/
+/build/
+/out/
+/bin/
+/classes/
+/dependency-reduced-pom.xml
+
+# === IDEs ===
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+.history/
+
+# === Sistema Operacional ===
+.DS_Store
+Thumbs.db
+
+# === Logs e Arquivos Temporários ===
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+
+# === Arquivos de Ambiente ===
+.env
+.env.*
+*.local
+
+# === Arquivos de Configuração Sensíveis ===
+application.properties
+application.yml
+application.yaml
+
+# (Você pode substituir acima por application-example.properties para manter um modelo)
+
+# === Cache e Dependências ===
+.mvn/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+**/node_modules/
+
+# === Testes e Coverage ===
+/test-output/
+/surefire-reports/
+/jacoco.exec
+/jacoco-report.html
+/coverage/
+
+# === Docker e Container ===
+/docker-compose.override.yml
+/docker-compose.local.yml
+
+# === Arquivos de Ferramentas ===
+/*.bak
+/*.log
+/*.tmp
+
+# === Sistema Operacional ===
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# === Quarkus Specific ===
+.quarkus/
+.quarkus-run/
+quarkus-app/
+
+.idea/
